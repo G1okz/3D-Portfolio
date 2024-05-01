@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import { NavBar } from './components/NavBar';
+import NavBar from './components/NavBar';
 import { Home, About, Projects, Contact } from './pages';
 
 const App = () => {
@@ -19,4 +19,3 @@ const App = () => {
 }
 
 export default App;
-º
